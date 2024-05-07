@@ -1,0 +1,212 @@
+    1  text_ignore.txt
+    2  ### AL ###
+    3  #Template for AL projects for Dynamics 365 Business Central
+    4  #launch.json folder
+    5  .vscode/
+    6  #Cache folder
+    7  .alcache/
+    8  #Symbols folder
+    9  .alpackages/
+   10  #Snapshots folder
+   11  .snapshots/
+   12  #Testing Output folder
+   13  .output/
+   14  #Extension App-file
+   15  *.app
+   16  #Rapid Application Development File
+   17  rad.json
+   18  #Translation Base-file
+   19  *.g.xlf
+   20  #License-file
+   21  *.flf
+   22  #Test results file
+   23  TestResults.xml
+   24  pwd
+   25  ls -l
+   26  cd /d/Users/username/ZoryanaH
+   27  cd /c/Users/username/
+   28  cd /c/Users/zorya/
+   29  pwd
+   30  cd D
+   31  cd IT
+   32  cd Do
+   33  pwd
+   34  cd D
+   35  cd F
+   36  cd
+   37  cd Zory
+   38  bhghb
+   39  pwd
+   40  cd Documents/
+   41  pwd
+   42  mkdir test_dir1
+   43  ls
+   44  ls -l
+   45  cd test_dir1
+   46  pwd
+   47  clear
+   48  touch test.txt
+   49  ls -l
+   50  vim test.txt
+   51  ls -l
+   52  cat test.txt
+   53  tail test.txt
+   54  pwd
+   55  mkdir child_dir
+   56  ls -l
+   57  cp test.txt child_dir
+   58  child_dir
+   59  ls -l
+   60  rm test.txt
+   61  ls -l
+   62  cd ..
+   63  ls -l
+   64  child_dir
+   65  mv test.txt child_dir
+   66  child_dir
+   67  ls -l
+   68  clear
+   69  ping google.com
+   70  ping goo123testy.com
+   71  date
+   72  whoami
+   73  ipconfig
+   74  clear
+   75  df -h
+   76  clear
+   77  staff
+   78  chmod 777 test.txt
+   79  clear
+   80  help ls
+   81  man ls
+   82  clear
+   83  help ls 
+   84  help help
+   85  ls --help
+   86  clear
+   87  cd ..
+   88  cd ..
+   89  clear
+   90  cd ..
+   91  cd ..
+   92  cd D
+   93  cd dev
+   94  clear
+   95  cd dsp clear
+   96  clear
+   97  cd test_dir1
+   98  pwd
+   99  ls -l
+  100  clear
+  101  pwd
+  102  cd Doc
+  103  clear
+  104  pwd
+  105  cd Do
+  106  clear
+  107  pwd
+  108  cd D
+  109  clear
+  110  pwd
+  111  cd Documents/
+  112  ls -l
+  113  cd HW_10/ ls child_folder
+  114  ls child_folder
+  115  cd ..
+  116  cd Documents/
+  117  ls -l
+  118  cd As Minhas Imagens
+  119  cd 'As Minhas Imagens'
+  120  ls path/to/child/directory
+  121  ls child_HW_10
+  122  ls child_directory
+  123  ls -l
+  124  ls -a
+  125  ls -lhS
+  126  ls -lhSr
+  127  clear
+  128  clear
+  129  cd ..
+  130  clear
+  131  cd Zory/.git/
+  132  git config --global user.name Zoryanah
+  133  git config --get user.name
+  134  git config --global user.email zoryanah@gmail.com
+  135  git config --get user.email
+  136  git clone https://github.com/ZoryanaH/repository_test.git
+  137  cd repository_test
+  138  touch .gitignore
+  139  touch text_ignore.txt
+  140  vim test.txt
+  141  vim .gitignore
+  142  ls -l
+  143   git status
+  144  touch readme.txt
+  145  git add readme.txt
+  146  git commit -m
+  147  git commit -m "readme.txt"
+  148  git branch develop
+  149  git checkout develop
+  150  touch test.txt
+  151  git add test.txt
+  152  git commit -m "test.txt"
+  153  vim test.txt
+  154  git status
+  155  git add test.txt
+  156  git commit -m "test_zminy"
+  157  git status
+  158  git checkout main
+  159  git merge develop
+  160  git log
+  161  git add command_list.csv
+  162  cd ..
+  163  git add command_list.csv
+  164  cd repository_test
+  165  git add command_list.csv
+  166  history > command_list.csv
+  167  git add .
+  168  git commit -m "Додано інформацію з історії команд"
+  169  git push
+  170  cd C:\Users\zorya\Zory\task1\HW_10
+  171  ls
+  172  pwd
+  173  ls -al
+  174  cd Zory/task1/HW_10
+  175  ls -al
+  176  touch text_ignore.txt
+  177  ls -al
+  178  cat .gitignore 
+  179  text_ignore.txt >> .gitignore
+  180  echo "text_ignore.txt" > .gitignore
+  181  cat .gitignore 
+  182  echo "text_ignore.txt"
+  183  echo "text_ignore.txt" >> .gitignore
+  184  cat .gitignore 
+  185  echo "text_ignore.txt" > .gitignore
+  186  git status
+  187  git add .
+  188  git log
+  189  git status
+  190  git commit -m "Added text_ignore to gitignore"
+  191  git status
+  192  touch main_test.txt
+  193  git add .
+  194  git commit -m "Add empty main_test file"
+  195  git log
+  196  git switch -c develop
+  197  touch develop_test.txt
+  198  git add .
+  199  git commit -m "Add empty develop_test file"
+  200  echo "Some changes" > ./develop_test.txt 
+  201  echo "Some changes"
+  202  git status
+  203  git add .
+  204  git commit -m "Add changes to develop_test file"
+  205  git switch main
+  206  ls -al
+  207  git merge develop
+  208  git log
+  209  ls -al
+  210  git history
+  211  history
+  212  history > command_list.csv
